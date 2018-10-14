@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+}
+
+hr{
+    margin-top: -0.3cm;
+    border-color: royalblue;
+}
+
+.collapsible{
+    background-color: #333;
+    color: #f2f2f2;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+.collapsible:hover{
+    background: #ddd;
+    color: black;
+    
+}
+
+button.active{
+    background-color: royalblue;
+    color: white;
+}
+
+button.active:hover{
+    background-color: royalblue;
+    color: white;
+}
+.content{
+    padding: 0 18px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    max-height: 0;
+    transition: max-height 0.2s ease-out
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsible:hover:after{
+  color: black;
+}
+
+button.active:after {
+  content: "\2212";
+}
+
+.collapsible.active:hover:after{
+    color: white;
+}
+
+.topnav {
+  z-index: 2;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: royalblue;
+  color: white;
+}
+
+#namecv{
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 30px 0 0;
+    font-size: 200%;
+}
+
+#pictureofmecv{
+    padding-bottom: 45px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item img{
+    vertical-align: text-bottom;
+    margin-right: 15px;
+}
+
+.grid-item{
+    margin: 10px 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.wrapper {
+  background-color: #f2f2f2;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  color: #fff;
+  padding: 100px 20px 200px;
+  box-sizing: border-box;
+}
+
+.block {
+  z-index: 1;
+  position: relative;
+}
+.block:before {
+  content: "";
+  position: absolute;
+  height: calc(100% - 40px);
+  width: 3px;
+  background-color: #333;
+  left: calc(50% - 1px);
+  margin-top: 90px;
+}
+
+.title {
+  font-weight: bold;
+  font-size:  42px;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.8s ease-in-out;
+  color: #333;
+}
+
+.each-event {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  margin: 60px 20px;
+  width: 300px;
+  position: relative;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+.each-event:before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 8px);
+  left: -27px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: royalblue;
+  box-shadow: 0 4px 20px -4px rgba(64, 64, 64, 0.8);
+}
+.each-event:nth-child(odd) {
+  margin-left: calc(50% + 20px);
+}
+.each-event:nth-child(even) {
+  margin-left: calc(50% - 321px);
+}
+.each-event:nth-child(even):before {
+  left: calc(100% + 14px);
+}
+
+.each-event:nth-child(even):hover{
+    background-color: royalblue;
+    width: 550px;
+    right: calc(+250px);
+    transition-delay: 0s;
+}
+.each-event:nth-child(odd):hover{
+    background-color: royalblue;
+    width: 550px;
+}
+
+.each-event .hidable {
+    position:relative;
+    display:none;
+    transition:0s 180s;
+}
+
+
+.title.non-focus {
+  font-size: 24px;
+  line-height: 34px;
+  transition: all 0.8s ease-in-out;
+}
+
+.each-event.non-focus {
+  color: #d2d2d2;
+  background: #e6e6e6;
+  margin-top: 90px;
+  transform: rotateZ(45deg);
+  transition: all 0.8s ease-in-out;
+}
+.each-event.non-focus:before {
+  opacity: 0;
+  background-color: #aaa;
+}
+
+.each-event.focus:hover .hidable{
+    display:block;
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section{
+    text-align: left;
+    margin-right: 75px;
+    margin-left: 75px;
+};
