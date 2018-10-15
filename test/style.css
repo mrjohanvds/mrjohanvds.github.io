@@ -11,6 +11,8 @@ body, html{
     min-height: 80%;
     height: 80%;
     position: relative;
+    -webkit-box-shadow: 0 -20px 100px rgba(0,0,0,0.8) inset;
+    box-shadow: 0 -20px 100px rgba(0,0,0,0.8) inset;
     }}
 
 #home article{
@@ -18,15 +20,29 @@ body, html{
     position: absolute;
     text-align: center;
     top: 150px;
-    width: 100%
+    width: 100%;
+    color: white;
+    font-size: 300%;
 }
 
 #middle{
     background-color: #333;
-    height: 40%;
+    margin: 0;
+    height: 20%;
     position: relative;
-    -webkit-box-shadow: 50px 0 rgba(0,0,0,0.8);
-    box-shadow: 50px 0 rgba(0,0,0,0.8);
+}
+
+#middle article{
+    height: auto;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 100%;
+    color: white;
+}
+
+#middle:hover{
+    background-color: royalblue;
 }
 
 #about{
@@ -35,10 +51,11 @@ body, html{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
-    min-height: 120%;
-    height: 120%;
-    bottom: 20%;
+    min-height: 100%;
+    height: 100%;
     position: relative;
+    -webkit-box-shadow: 0 20px 100px rgba(0,0,0,0.8) inset;
+    box-shadow: 0 20px 100px rgba(0,0,0,0.8) inset;
 }
 
 #about article { 
