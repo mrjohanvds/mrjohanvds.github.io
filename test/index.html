@@ -2,24 +2,26 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>My Favourite things</title>
-        <style type="text/css" src="style.css"></style>
+		<title>test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	
 	<body>
-        <!-- particles.js container --> 
-        <div style="height: 50px"><div id="particles-js"></div></div>
+        <section id="home" data-type="background" data-speed="-1.5" class="pages">
+            <article>I am absolute positioned</article>
+        </section>
         
-        <!-- stats - count particles --> 
-        <div class="count-particles"> 
-            <span class="js-count-particles">--</span> particles 
-        </div> 
+        <section id="middle" data-type="background" data-speed="1" class=pages>
+            <article>Scroll Down</article>
+        </section>
+            
         
-        <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
-        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <section id="about" data-type="background" data-speed="10" class="pages">
+            <article>Simple Parallax Scroll</article>
+        </section>
         
-        <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-        
-        <script type="text/javascript" src="script.js"></script>
+        <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+        <script src="script.js" type="text/javascript"></script>
 	</body>
 </html>

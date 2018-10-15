@@ -45,6 +45,7 @@ function stickyNavBar()
         }
     }
 }
+
 function timeline()
 {
     var $element=$('.each-event, .title');
@@ -70,4 +71,19 @@ function timeline()
  
         });
     };
+}
+
+function expend(id)
+{
+    var element = document.getElementById(id);
+    if(element.classList.contains("extended")){
+        element.classList.remove("extended");
+    }
+    else{
+        element.classList.add("extended")
+    }
+}
+
+function overlayOff(){
+    document.getElementById("overlay").style.display = "none";
 }

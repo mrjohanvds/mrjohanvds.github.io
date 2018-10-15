@@ -1,46 +1,50 @@
-/* ---- reset ---- */ 
-body{ 
-    margin:0; 
-    font:normal 75% Arial, Helvetica, sans-serif; 
-} 
-canvas{ display: block; vertical-align: bottom;} 
-/* ---- particles.js container ---- */ 
-#particles-js{ 
-    position:absolute; 
-    width: 100%; height: 50%; 
-    background-color: #ffffff; 
-    background-image: url(""); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: 50% 50%; 
+body, html{
+    height: 100%;
+    margin: 0;
 }
-/* ---- stats.js ---- */ 
-.count-particles{ 
-    background: #000022; 
-    position: absolute; 
-    top: 48px; 
-    left: 0; 
-    width: 80px; 
-    color: #13E8E9; 
-    font-size: .8em; 
-    text-align: left; 
-    text-indent: 4px; 
-    line-height: 14px; 
-    padding-bottom: 2px; 
-    font-family: Helvetica, Arial, sans-serif; 
-    font-weight: bold; 
-} 
+@media screen{
+#home{
+    background-image: url(../images/background/sky.jpg);
+    background-position: top;
+    background-size: cover;
+    margin: 0 auto;
+    min-height: 80%;
+    height: 80%;
+    position: relative;
+    }}
 
-.js-count-particles{ font-size: 1.1em; } 
-
-#stats, .count-particles{ 
-    -webkit-user-select: none;
-    margin-top: 5px; 
-    margin-left: 5px; 
-} 
-
-#stats{ border-radius: 3px 3px 0 0;
-    overflow: hidden;
+#home article{
+    height: 458px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 100%
 }
 
-.count-particles{ border-radius: 0 0 3px 3px; }
+#middle{
+    background-color: #333;
+    height: 40%;
+    position: relative;
+    -webkit-box-shadow: 50px 0 rgba(0,0,0,0.8);
+    box-shadow: 50px 0 rgba(0,0,0,0.8);
+}
+
+#about{
+    background: url(../images/background/mountains.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-height: 120%;
+    height: 120%;
+    bottom: 20%;
+    position: relative;
+}
+
+#about article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
