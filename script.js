@@ -6,6 +6,7 @@ timeline();
 function collapsing()
 {
     var coll = document.getElementsByClassName("collapsible");
+    var skills = document.getElementsByClassName("skill");
     var i;
 
     for (i = 0; i < coll.length; i++) {
@@ -14,8 +15,16 @@ function collapsing()
             var content = this.nextElementSibling;
             if (content.style.maxHeight) {
                 content.style.maxHeight = null;
+                var j;
+                for(j =0; j < skills.length; j++){
+                    skills[i].classList.remove("skill-active");
+                }
             } else {
                 content.style.maxHeight = content.scrollHeight+"px";
+                var j;
+                for(j =0; j < skills.length; j++){
+                    skills[i].classList.add("skill-active");
+                }
             }
         });
     }

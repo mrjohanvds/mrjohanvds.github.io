@@ -6,11 +6,6 @@ body{
     font-weight: 400px;
 }
 
-hr{
-    margin-top: -0.3cm;
-    border-color: royalblue;
-}
-
 .collapsible{
     background-color: #333;
     color: #f2f2f2;
@@ -43,6 +38,7 @@ button.active:hover{
 .content{
     padding: 0 18px;
     overflow: hidden;
+    text-align: left;
     background-color: #f2f2f2;
     max-height: 0;
     transition: max-height 0.2s ease-out
@@ -236,6 +232,137 @@ button.active:after {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.skill-container{
+    width: 50%;
+    background-color: #aaa;
+    margin: 2px;
+}
+
+.active +div .skill{
+    text-align: left;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: royalblue;
+}
+
+
+.active + div .cs{width: 90%;animation:cs 2s ease-out;}
+.active + div .xml{width: 85%;animation:xml 2s ease-out;}
+.active + div .sql{width: 80%;animation:sql 2s ease-out;}
+.active + div .java{width: 75%;animation:java 2s ease-out;}
+.active + div .web{width: 75%;animation:web 2s ease-out;}
+.active + div .cpp{width: 70%;animation:cpp 2s ease-out;}
+.active + div .latex{width: 70%;animation:latex 2s ease-out;}
+.active + div .c{width: 65%;animation:c 2s ease-out;}
+.active + div .js{width: 65%;animation:js 2s ease-out;}
+.active + div .scilab{width: 45%;animation:scilab 2s ease-out;}
+.active + div .arduino{width: 45%;animation:arduino 2s ease-out;}
+.active + div .python{width: 20%;animation:python 2s ease-out;}
+
+.active + div .cs:after{float: right; content: "90%"}
+.active + div .xml:after{float: right; content: "85%"}
+.active + div .sql:after{float: right; content: "80%"}
+.active + div .java:after{float: right; content: "75%"}
+.active + div .web:after{float: right; content: "75%"}
+.active + div .cpp:after{float: right; content: "70%"}
+.active + div .latex:after{float: right; content: "70%"}
+.active + div .c:after{float: right; content: "65%"}
+.active + div .js:after{float: right; content: "65%"}
+.active + div .scilab:after{float: right; content: "45%"}
+.active + div .arduino:after{float: right; content: "45%"}
+.active + div .python:after{float: right; content: "20%"}
+
+.active + div .mo{width: 95%;animation:mo 2s ease-out;}
+.active + div .id{width: 80%;animation:id 2s ease-out;}
+.active + div .ps{width: 60%;animation:ps 2s ease-out;}
+.active + div .sw{width: 55%;animation:sw 2s ease-out;}
+.active + div .c4{width: 50%;animation:c4 2s ease-out;}
+.active + div .gp{width: 45%;animation:gp 2s ease-out;}
+
+.active + div .mo:after{float: right; content: "95%"}
+.active + div .id:after{float: right; content: "80%"}
+.active + div .ps:after{float: right; content: "60%"}
+.active + div .sw:after{float: right; content: "55%"}
+.active + div .c4:after{float: right; content: "50%"}
+.active + div .gp:after{float: right; content: "45%"}
+
+@keyframes cs { 
+  0%  { width:0px;} 
+  100%{ width:90%;}
+}
+@keyframes xml { 
+  0%  { width:0px;} 
+  100%{ width:85%;}
+}
+@keyframes sql { 
+  0%  { width:0px;} 
+  100%{ width:80%;}
+}
+@keyframes java { 
+  0%  { width:0px;} 
+  100%{ width:75%;}
+}
+@keyframes web { 
+  0%  { width:0px;} 
+  100%{ width:75%;}
+}
+@keyframes cpp { 
+  0%  { width:0px;} 
+  100%{ width:70%;}
+}@keyframes latex { 
+  0%  { width:0px;} 
+  100%{ width:70%;}
+}
+@keyframes c { 
+  0%  { width:0px;} 
+  100%{ width:65%;}
+}
+@keyframes js { 
+  0%  { width:0px;} 
+  100%{ width:65%;}
+}
+@keyframes scilab { 
+  0%  { width:0px;} 
+  100%{ width:45%;}
+}
+@keyframes arduino { 
+  0%  { width:0px;} 
+  100%{ width:45%;}
+}
+@keyframes python { 
+  0%  { width:0px;} 
+  100%{ width:20%;}
+}
+
+@keyframes mo { 
+  0%  { width:0px;} 
+  100%{ width:95%;}
+}
+@keyframes id { 
+  0%  { width:0px;} 
+  100%{ width:80%;}
+}
+@keyframes ps { 
+  0%  { width:0px;} 
+  100%{ width:60%;}
+}
+@keyframes sw { 
+  0%  { width:0px;} 
+  100%{ width:55%;}
+}
+@keyframes c4 { 
+  0%  { width:0px;} 
+  100%{ width:50%;}
+}
+@keyframes gp { 
+  0%  { width:0px;} 
+  100%{ width:45%;}
+}
+
 
 .section{
     text-align: left;
