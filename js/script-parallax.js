@@ -13,7 +13,7 @@ $(document).ready(function(){
 });
     
 function scrollDown(){
-        $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+        $('html, body').animate({scrollTop:$(document).height()}, 1100, "swing");
 }
 
 fade();
@@ -44,10 +44,3 @@ function fade()
         });
     };
 }
-
-$(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-});
