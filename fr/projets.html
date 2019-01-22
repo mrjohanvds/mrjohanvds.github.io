@@ -1,30 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Mes Projets</title>
-        <link rel="stylesheet" type="text/css" href="../style.css">
-        <style type="text/css">
-        </style>
-        
-        <script type="text/javascript">
-        
-        </script>
-    </head>
-    
-    <body>
-        <header id="title"><h1>Mes Projets</h1></header>
-        <div class="topnav">
-            <a href="../fr/introduction.html">Introduction</a>
-            <a href="../fr/cv.html">CV</a>
-            <a href="../fr/projets.html" class="active">Projets</a>
-            <a href="../fr/contact.html">Contact</a>
-            <a href="../en/projects.html" style="float: right"><img src="../images/flags/uk.png" height=30 style="margin: -7px 0px" alt="See in English"></a>
-        </div>
-        <p id="namecv" >Johan VAN DER SLOOTEN</p>
-        <br/>
+<html lang="fr">
 
-        <script src="../script.js"></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Projects</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="icon" href="../images/icon.png">
+    <style type="text/css">
+
+    </style>
+
+
+</head>
+
+<body>
+    <header id="title">
+        <h1>MES PROJETS</h1>
+    </header>
+    <div class="topnav" id="navbar">
+        <a href="../fr/introduction.html">Introduction</a>
+        <a href="../fr/resume.html">Curriculum Vitae</a>
+        <a href="../fr/projects.html" class="active">Projets</a>
+        <a href="../fr/contact.html">Contact</a>
+        <a href="../en/projets.html" style="float: right"><img src="../images/flags/uk.png" height=30 style="margin: -7px 0px" alt="See in English"></a>
+    </div>
+    <div class="site-content">
+        <div id="tip">Cliquer sur le projet pour plus d'informations.</div>
+        <div class="wrapper">
+            <section class="block">
+                <div class="each-year">
+                    <div class="title">4ième année</div>
+                    <div class="each-event" id="Mooc" onclick='expend("Mooc")'>
+                        <div class="event-description">
+                            <h2>Création d'un cours</h2>
+                            <p style="font-weight: bold">Un cours en ligne sur le C#</p>
+                            <p class="hidable">Projet en cours</p>
+                        </div>
+                    </div>
+                    <div class="each-event" id="Farmer" onclick='expend("Farmer")'>
+                        <div class="event-description">
+                            <h2>Site internet pour fermes</h2>
+                            <p>Un site internet référencent des fermes + Questionnaire de satisfaction</p>
+                            <p class="hidable">Fait avec html, css, xml et xslt</p>
+                            <p class="hidable"><a href="https://github.com/mrjohanvds/Attraction-Park-Management-Program" target="_blank">Voir le site</a></p>
+                            <p class="hidable">Doit être ouvrir avec Mozilla Firefox</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="block">
+                <div class="each-year">
+                    <div class="title">3ième année</div>
+                    <div class="each-event" id="Chromatix" onclick='expend("Chromatix")'>
+                        <div class="event-description">
+                            <h2>Chromatix</h2>
+                            <p style="font-weight: bold"> Application android d'assistance aux daltonniens </p>
+                            <iframe class="hidable" width="560" height="315" src="https://www.youtube.com/embed/oSTxvM9RnE0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                            <p class="hidable">Quizz déterminant le type de daltonisme (Test d'Ishihara), détecteur de couleurs et capacité à remplacer une couleur par une autre sur une photo.</p>
+                        </div>
+                    </div>
+                    <div class="each-event" id="Zombillenium" onclick='expend("Zombillenium")'>
+                        <div class="event-description">
+                            <h2>Zombillenium</h2>
+                            <p style="font-weight: bold">Logiciel de gestion d'un parc d'attraction</p>
+                            <p class="hidable"> Ajouter/Retirer un employé, changer le métier, planifier une maintenance...</p>
+                            <p class="hidable"><a href="https://github.com/mrjohanvds/Attraction-Park-Management-Program" target="_blank">Voir le github</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="block">
+                <div class="each-year">
+                    <div class="title">2ième année</div>
+                    <div class="each-event" id="easylock" onclick='expend("easylock")'>
+                        <div class="event-description">
+                            <h2>EasyLock</h2>
+                            <p style="font-weight: bold">Ouverture et fermeture d'un casier connecté à l'aide du badge étudiant</p>
+                            <iframe class="hidable" width="560" height="315" src="https://www.youtube.com/embed/gqpCegpZcwQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="each-event" id="bitmap" onclick='expend("bitmap")'>
+                        <div class="event-description">
+                            <h2>Traitement d'image Bitmap</h2>
+                            <p class="hidable">Rotation, étirement, filtre avec des drapeaux, nuances de gris...</p>
+                            <p class="hidable"><a href="https://github.com/mrjohanvds/Traitement-d-image-Bitmap---Projet-2eme-Annee" target="_blank">Voir le github</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="block">
+                <div class="each-year">
+                    <div class="title">1ère année</div>
+                    <div class="each-event" id="vehicule" onclick='expend("vehicule")'>
+                        <div class="event-description">
+                            <h2>Véhicule de secours</h2>
+                            <p style="font-weight: bold">Automate de secours transportant une balle en équilibre le long d’une pente.</p>
+                            <img src="../images/pix1.jpg" class="hidable">
+                        </div>
+                    </div>
+                    <div class="each-event" id="milling" onclick='expend("milling")'>
+                        <div class="event-description">
+                            <h2>Projet d'usinage</h2>
+                            <p style="font-weight: bold">Projet sur fraiseuse (Chef de Projet).</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="../js/script.js"></script>
+</body>
+
 </html>
