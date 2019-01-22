@@ -3,149 +3,216 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Mon CV</title>
+        <title>Mon Curriculum Vitae</title>
         <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="icon" href="../images/icon.png">
         <style type="text/css">
         </style>
-        
-        <script type="text/javascript">
-        
-        </script>
     </head>
     
     <body>
-        <header id="title"><h1>MON CURRICULUM VITAE</h1></header>
-        <div class="topnav">
+        <header id="title"><h1>MON CURRICULUM VITAE</h1></header>  
+        <div class="topnav" id="navbar">
             <a href="../fr/introduction.html">Introduction</a>
             <a href="../fr/cv.html" class="active">CV</a>
             <a href="../fr/projets.html">Projets</a>
             <a href="../fr/contact.html">Contact</a>
-            <a href="../en/resume.html" style="float: right"><img src="../images/flags/uk.png" height=30 style="margin: -7px 0px" alt="See in English"></a>
+            <a href="../en/resume.html" style="float: right"><img src="../images/flags/france.png" height=30 style="margin: -7px 0px" alt="Voir en Français"></a>
         </div>
+        <div class="site-content">
         <p id="namecv" >Johan VAN DER SLOOTEN</p>
         <br/>
-        <img src="../images/me.png" height="200" id="pictureofmecv" alt="Photo de moi">
-        
+        <img src="../images/me.png" height="200" id="pictureofmecv" alt="Picture of me">
         <div id="studies" class="section">
             <button class="collapsible">Etudes</button>
             <div class="content">
-            <ul>
-                <li>
-                    <span style="font-weight: bold">&Eacute;cole d'ingénieurs : </span>Depuis septembre 2015 jusqu'à maintenant : ESILV (&Eacute;cole Supérieure d'Ingénieurs de Léonard de Vinci) à Paris, La Défense. Actuellement en 4ième année.
-                </li>
-                <li>
-                    <span style="font-weight: bold">Semestre à l'International : </span>De juillet à décembre 2018: University of Newcastle en Australie.
-                </li>
-                <li><span style="font-weight: bold">Baccalauréat STI2D : </span> Mention Bien.</li>
-            </ul>
+                <div class="grid-container">
+                    
+                    <div class="grid-item"><img src="../images/logo/esilv.png" height="50"></div>
+                    <div class="grid-item">
+                        <p>
+                            <span style="font-weight: bold">Ecole d'ingénieurs: </span>De septembre 2015 jusqu'à maintenant : ESILV (Ecole Supérieure d'Ingénieurs de Léonard de Vinci) à Paris - La Défense. Actuellement en 4ième année.
+                        </p>
+                    </div>
+                    <div class="grid-item"><img src="../images/logo/uon.png" height="50"></div>
+                    <div class="grid-item">
+                        <p>
+                            <span style="font-weight: bold">Semestre à l'international: </span>De juillet à décembre 2018 : University of Newcastle en Australie.
+                        </p>
+                    </div>
+                    <div class="grid-item"><img src="../images/logo/cdg.png" height="50"></div>
+                    <div>
+                        <p>
+                            <span style="font-weight: bold">Baccalauréat: </span> STI2D : Sciences Technologique de l'Industrie et du Dévellopement Durable. Mention Bien.
+                        </p>
+                    </div>
+                </div>
+                
             </div>
         </div>
         
         <div id="pro" class="section">
-            <button class="collapsible">Experiences Professionnelles</button>
+            <button class="collapsible">Expériences Professionelles</button>
             <div class="content">
-            <ul>
-                <li>
-                    Juin à Septembre 2017 - <span style="font-weight: bold">Vendeur Stagiaire </span> à "Darty - Orgeval" - 3 mois.
-                </li>
-                <li>
-                    Août 2016 - <span style="font-weight: bold">Vendeur </span>à "Super U - Chamonix" - 1 mois.
-                </li>
-                <li>
-                    <span style="font-weight: bold">Ambassadeur </span>de l'ESILV sur les salons étudiants.
-                </li>
-            </ul>
+                <div class="wrapper">
+                    <section class="block">
+                        <div class="each-year">
+                            <div class="title">2017</div>
+                            <div class="each-event">
+                                <div class="envent-description">
+                                    <h2>Juin à Septembre</h2>
+                                    <div class="body">
+                                        <p><span style="font-weight: bold">Stagiaire Vendeur</span> à Darty - 3  Mois.</p>
+                                        <p><img src="../images/pin.png" height="20"> Orgeval, FRANCE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="block">
+                        <div class="each-year">
+                            <div class="title">2016</div>
+                            <div class="each-event">
+                            
+                                <div class="envent-description">
+                                    <h2>Août</h2>
+                                    <div class="body">
+                                        <p><span style="font-weight: bold">Agent de caisse</span> dans un supermarché "Super U" - 1 Mois.</p>
+                                        <p><img src="../images/pin.png" height="20"> Chamonix Mt Blanc, FRANCE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
         
         <div id="projects" class="section">
             <button class="collapsible">Projets Académiques</button>
             <div class="content">
-            <ul style="list-style-type: none; margin-left: -15px">
-                <li>
-                    <span style="font-weight: bold">ESILV:</span>
-                    <ul style="margin-top: 10px; margin-bottom: 10px">
-                        <li style="list-style-type: disc">
-                            <span style="font-weight: bold">3ième année :</span>
-                            <ul style="list-style-type: circle">
-                                <li>Application mobile d'assistance aux personnes atteintes du daltonisme.</li>
-                                <li>Logiciel de getion d'un parc d'attraction en C#</li>
-                            </ul>
-                        </li>
-                        <li style="list-style-type: disc">
-                            <span style="font-weight: bold">2ième année :</span>
-                            <ul style="list-style-type: circle">
-                                <li>Ouverture et fermeture d'un casier à l'aide du badge étudiant. (Arduino)</li>
-                                <li>Traitement d'image Bitmap en C#.</li>
-                            </ul>
-                        </li>
-                        <li style="list-style-type: disc">
-                            <span style="font-weight: bold">1ère année :</span>
-                            <ul style="list-style-type: circle">
-                                <li>Automate de secours transportant une balle en équilibre le long d'une pente.</li>
-                                <li>Projet d'usinage sur fraiseuse. (Chef de projet)</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <span style="font-weight: bold">Projet de BAC :</span> Automatisation d'une serre tropicale. 
-                </li>
-            </ul>
+             <ul style="list-style-type: none; margin-left: -15px">
+                 <li>
+                       <span style="font-weight: bold">ESILV:</span>
+                      <ul style="margin-top: 10px; margin-bottom: 10px">
+                          <li style="list-style-type: disc">
+                              <span style="font-weight: bold">3ième année:</span>
+                              <ul style="list-style-type: circle">
+                                  <li>Application mobile d'assistance aux daltoniens</li>
+                                  <li>Logiciel de gestion d'un parc d'attraction en C#.</li>
+                              </ul>
+                          </li>
+                          <li style="list-style-type: disc">
+                              <span style="font-weight: bold">2ième année:</span>
+                              <ul style="list-style-type: circle">
+                                  <li>Ouverture et fermeture d'un casier à l'aide du badge étudiant. (Arduino)</li>
+                                  <li>Traitement d'image Bitmap en C#.</li>
+                              </ul>
+                          </li>
+                          <li style="list-style-type: disc">
+                              <span style="font-weight: bold">1ère année:</span>
+                              <ul style="list-style-type: circle">
+                                  <li>Véhicule de secours capable de transporter une balle en équilibre le long d'une pente.</li>
+                                  <li>Projet d'usinage sur fraiseuse. (Chef de projet)</li>
+                              </ul>
+                           </li>
+                     </ul>
+                   </li>
+                   <li>
+                       <span style="font-weight: bold">Projet de BAC:</span> Automatisation d'une serre tropicale. 
+                   </li>
+               </ul>
+                <p><a class="link" href="../fr/projets.html">En savoir plus ici</a></p>
             </div>
         </div>
         
         <div id="skills" class="section">
             <button class="collapsible">Compétences</button>
             <div class="content">
-            <ul style="list-style-type: none; margin-left: -15px">
-                <li>
-                    <span style="font-weight: bold">Languages:</span>
-                    <ul style="list-style-type: disc; margin-top: 10px; margin-bottom: 10px">
-                        <li>Français &rarr; Langue Natale</li>
-                        <li>Anglais &rarr; TOEIC : 735</li>
-                        <li>Espagnol &rarr; Notions</li>
-                    </ul>
-                </li>
-                <li>
-                    <span style="font-weight: bold">Programmation :</span>
-                    <ul style="list-style-type: none; margin-top: 10px; margin-bottom: 10px">
-                        <li><img src="../images/gauges/5.png" height="18" alt="5 sur 5"><span> &rarr; C#</span></li>
-                        <li><img src="../images/gauges/5.png" height="18" alt="5 sur 5"><span> &rarr; XML</span></li>
-                        <li><img src="../images/gauges/4.png" height="18" alt="4 sur 5"><span> &rarr; SQL</span></li>
-                        <li><img src="../images/gauges/4.png" height="18" alt="4 sur 5"><span> &rarr; Java</span></li>
-                        <li><img src="../images/gauges/4.png" height="18" alt="4 sur 5"><span> &rarr; C++ </span></li>
-                        <li><img src="../images/gauges/4.png" height="18" alt="4 sur 5"><span> &rarr; HTML5 - CSS - XSLT </span></li>
-                        <li><img src="../images/gauges/4.png" height="18" alt="4 sur 5"><span> &rarr; LaTeX </span></li>
-                        <li><img src="../images/gauges/3.png" height="18" alt="3 sur 5"><span> &rarr; C </span></li>
-                        <li><img src="../images/gauges/3.png" height="18" alt="3 sur 5"><span> &rarr; Javascript </span></li>
-                        <li><img src="../images/gauges/2.png" height="18" alt="2 sur 5"><span> &rarr; SciLab </span></li>
-                        <li><img src="../images/gauges/2.png" height="18" alt="2 sur 5"><span> &rarr; Arduino </span></li>
-                        <li><img src="../images/gauges/1.png" height="18" alt="1 sur 5"><span> &rarr; Python </span></li>
-                    </ul>
-                </li>
-                <li>
-                    <span style="font-weight: bold">Logiciels :</span>
-                    <ul style="list-style-type: none; margin-top: 10px; margin-bottom: 10px">
-                        <li><img src="../images/gauges/5.png" height="18" alt="5 sur 5"><span> &rarr; Microsoft Office</span></li>
-                        <li><img src="../images/gauges/5.png" height="18" alt="5 sur 5"><span> &rarr; InDesign</span></li>
-                        <li><img src="../images/gauges/4.png" height="18" alt="4 sur 5"><span> &rarr; Photoshop</span></li>
-                        <li><img src="../images/gauges/3.png" height="18" alt="3 sur 5"><span> &rarr; Solidworks</span></li>
-                        <li><img src="../images/gauges/3.png" height="18" alt="3 sur 5"><span> &rarr; Cinema4D</span></li>
-                        <li><img src="../images/gauges/2.png" height="18" alt="2 sur 5"><span> &rarr; Gantt Project</span></li>
-                    </ul>
-                </li>
-            </ul>
+              <ul style="list-style-type: none; margin-left: -15px">
+                 <li>
+                      <span style="font-weight: bold">Langages:</span>
+                     <ul style="list-style-type: disc; margin-top: 10px; margin-bottom: 10px">
+                         <li>Français &rarr; Langue Natale</li>
+                         <li>Anglais &rarr; TOEIC: 735 (Résultat de 2017)</li>
+                         <li>Espagnol &rarr; Notions</li>
+                     </ul>
+                 </li>
+                 <li>
+                     <span style="font-weight: bold" id="programming">Programmation:</span>
+                     
+                     <div class="skill-container">
+                            <div class="skill cs">C#</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill xml">XML</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill sql">SQL</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill java">Java</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill web">HTML - CSS - XSLT</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill cpp">C++</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill latex">LaTeX</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill c">C</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill js">JavaScript</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill scilab">SciLab</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill arduino">Arduino</div>
+                     </div>
+                     <div class="skill-container">
+                            <div class="skill python">Python</div>
+                     </div>
+                  </li>
+                  <br/>
+                 <li>
+                     <span style="font-weight: bold">Logiciel:</span>
+                      <div class="skill-container">
+                          <div class="skill mo">Microsoft Office</div>
+                      </div>
+                      <div class="skill-container">
+                          <div class="skill id">InDesign</div>
+                      </div>
+                      <div class="skill-container">
+                          <div class="skill ps">Photoshop</div>
+                      </div>
+                      <div class="skill-container">
+                          <div class="skill sw">SolidWorks</div>
+                      </div>
+                      <div class="skill-container">
+                          <div class="skill c4">Cinema4D</div>
+                      </div>
+                      <div class="skill-container">
+                          <div class="skill gp">GanttProject</div>
+                      </div>
+                    </li>
+              </ul>
             </div>
         </div>
         
         <div id="hobbies" class="section">
-            <button class="collapsible">Loisir</button>
-            <div class="content">
-            <p style="margin-left: 30px"><span style="font-weight: bold">Sport : </span> Golf (Entraînement and Compétitions), Hip-Hop, Boxe (Initiation).</p>
-            <p style="margin-left: 30px"><span style="font-weight: bold">Culture : </span> Voyages, Montages Vidéo, Cinéma, Séries.</p>
+            <button class="collapsible">Loisirs</button>
+            <div class="content" style="margin-bottom: 50px;">
+                <p style="margin-left: 30px"><span style="font-weight: bold">Sport: </span> Golf (Entraînement et compétition), Escalade, Hip-Hop, Boxe (Initiation).</p>
+                <p style="margin-left: 30px"><span style="font-weight: bold">Culture: </span> Voyage, Montage Vidéo, Cinéma, Séries.</p>
             </div>
+        </div>            
         </div>
-        <script src="../script.js"></script>
+        <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+        <script src="../js/script.js"></script>
     </body>
 </html>
