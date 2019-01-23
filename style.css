@@ -48,6 +48,10 @@ html {
     width: 100%;
 }
 
+#home article p{
+    font-size: 50%;
+}
+
 #middle {
     background-color: #333;
     margin: 0;
