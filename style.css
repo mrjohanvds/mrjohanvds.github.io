@@ -444,6 +444,24 @@ button.active:after {
     line-height: 30px;
     text-indent: 30px;
     text-align: justify;
+    box-shadow: 5px 5px 30px black;
+}
+
+#infos{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto 32%;
+    grid-row-gap: 15px;
+    text-align: left;
+}
+
+#infos *{
+    margin: auto 0;
+}
+
+#infos a{
+    text-decoration: none;
+    color: black;
 }
 
 
