@@ -469,22 +469,17 @@ button.active:after {
 }
 
 .active + div .cs {
-    width: 90%;
+    width: 80%;
     animation: cs 2s ease-out;
 }
 
-.active + div .xml {
-    width: 85%;
-    animation: xml 2s ease-out;
-}
-
 .active + div .sql {
-    width: 80%;
+    width: 75%;
     animation: sql 2s ease-out;
 }
 
 .active + div .java {
-    width: 75%;
+    width: 70%;
     animation: java 2s ease-out;
 }
 
@@ -498,23 +493,18 @@ button.active:after {
     animation: cpp 2s ease-out;
 }
 
-.active + div .latex {
-    width: 70%;
-    animation: latex 2s ease-out;
-}
-
 .active + div .c {
     width: 65%;
     animation: c 2s ease-out;
 }
 
 .active + div .js {
-    width: 65%;
+    width: 90%;
     animation: js 2s ease-out;
 }
 
 .active + div .nosql{
-    width: 60%;
+    width: 80%;
     animation: nosql 2s ease-out;
 }
 
@@ -535,22 +525,17 @@ button.active:after {
 
 .active + div .cs:after {
     float: right;
-    content: "90%";
-}
-
-.active + div .xml:after {
-    float: right;
-    content: "85%"
+    content: "80%";
 }
 
 .active + div .sql:after {
     float: right;
-    content: "80%"
+    content: "75%"
 }
 
 .active + div .java:after {
     float: right;
-    content: "75%"
+    content: "70%"
 }
 
 .active + div .web:after {
@@ -563,11 +548,6 @@ button.active:after {
     content: "70%"
 }
 
-.active + div .latex:after {
-    float: right;
-    content: "70%"
-}
-
 .active + div .c:after {
     float: right;
     content: "65%"
@@ -575,12 +555,12 @@ button.active:after {
 
 .active + div .js:after {
     float: right;
-    content: "65%"
+    content: "90%"
 }
 
 .active + div .nosql:after {
     float: right;
-    content: "60%"
+    content: "80%"
 }
 .active + div .scilab:after {
     float: right;
@@ -663,17 +643,7 @@ button.active:after {
     }
 
     100% {
-        width: 90%;
-    }
-}
-
-@keyframes xml {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 85%;
+        width: 80%;
     }
 }
 
@@ -683,7 +653,7 @@ button.active:after {
     }
 
     100% {
-        width: 80%;
+        width: 75%;
     }
 }
 
@@ -693,7 +663,7 @@ button.active:after {
     }
 
     100% {
-        width: 75%;
+        width: 70%;
     }
 }
 
@@ -708,16 +678,6 @@ button.active:after {
 }
 
 @keyframes cpp {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 70%;
-    }
-}
-
-@keyframes latex {
     0% {
         width: 0px;
     }
@@ -743,7 +703,7 @@ button.active:after {
     }
 
     100% {
-        width: 65%;
+        width: 90%;
     }
 }
 
@@ -753,7 +713,7 @@ button.active:after {
     }
 
     100% {
-        width: 60%;
+        width: 80%;
     }
 }
 

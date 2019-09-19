@@ -1,0 +1,2 @@
+npm i react-scroll-parallax
+npm i react-progress-bar-battlenet-style
