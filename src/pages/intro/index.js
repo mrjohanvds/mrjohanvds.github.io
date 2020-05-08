@@ -1,10 +1,14 @@
 import React from 'react';
+import '../../App.css';
+import { Link } from 'react-router-dom';
 
-function Intro() {
+function IntroPage() {
     return (
-        <h1>test</h1>
-    )
+        <React.Fragment>
+            <h1>Johan VAN DER SLOOTEN</h1>
+        </React.Fragment>
+    );
 }
 
 
-export default Intro;
+export default IntroPage;
