@@ -1,6 +1,6 @@
 import React from 'react';
 import Routes from './routes';
-import { NavigationBar } from './components'
+import { NavigationBar, Copyrights } from './components'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -10,8 +10,7 @@ function App() {
       <div className="App">
           <Routes />
       </div>
-      <footer>
-      </footer>
+      <Copyrights />
     </React.Fragment>
   );
 }
