@@ -43,11 +43,19 @@ body {
   max-width: 250px;
   max-height: 400px;
 }
-.resume:hover,
-.projects:hover,
-.contact:hover {
-  transform: rotate(-90deg);
-  transform-origin: 100% 0;
+.resume img:hover,
+.projects img:hover,
+.contact img:hover {
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
 }
 
 .resume {
@@ -59,7 +67,7 @@ body {
 
 .projects {
   left: 40%;
-  top: 40%;
+  top: 35%;
   width: 200px;
   height: 200px;
 }

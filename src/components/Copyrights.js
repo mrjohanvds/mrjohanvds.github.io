@@ -4,7 +4,7 @@ class Copyrights extends React.Component {
   render() {
 
     const style = {
-      'background-color' : '#333',
+      'background-color' : '#223',
       color : '#fff',
       width: '100%',
       position: 'fixed',
