@@ -1,7 +1,7 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 
-import {ContactPage, IntroPage, ProjectsPage, ResumePage} from './pages';
+import {ContactPage, HomePage, ProjectsPage, ResumePage} from './pages';
 
 /**
  * All routes go here.
@@ -10,7 +10,7 @@ import {ContactPage, IntroPage, ProjectsPage, ResumePage} from './pages';
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" component={IntroPage} />
+      <Route exact path="/" component={HomePage} />
       <Route exact path="/resume" component={ResumePage} />
       <Route exact path="/projects" component={ProjectsPage} />
       <Route exact path="/contact" component={ContactPage} />

@@ -6,11 +6,11 @@ import "./App.css"
 function App() {
   return (
     <React.Fragment >
-      <NavigationBar />
+      {/*<NavigationBar />*/}
       <div className="App">
           <Routes />
       </div>
-      <Copyrights className="copyrights" />
+      {/*<Copyrights className="copyrights" />*/}
     </React.Fragment>
   );
 }
