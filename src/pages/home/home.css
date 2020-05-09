@@ -57,6 +57,15 @@ body {
   -o-transform: rotate(10deg);
   -ms-transform: rotate(10deg);
 }
+.resume img,
+.projects img,
+.contact img {
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
 
 .resume {
   left: 12%;

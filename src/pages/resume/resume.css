@@ -18,3 +18,11 @@
   box-shadow: 5px 5px 30px black;
   color : #ccc
 }
+
+.introtext {
+  margin: auto 5%;
+  font-size: 110%;
+  line-height: 30px;
+  text-indent: 30px;
+  text-align: justify;
+}

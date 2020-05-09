@@ -15,7 +15,7 @@ class Copyrights extends React.Component {
 
     return (
         <footer style={style}>
-            <p style={{margin: '0'}}>© copyrights by Johan VAN DER SLOOTEN. Made With ReactJS</p>
+            <p style={{margin: '0'}}>© copyrights by Johan VAN DER SLOOTEN. Made in ReactJS</p>
         </footer>
     );
   }
