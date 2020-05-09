@@ -7,7 +7,7 @@
   height: 100%;
   background-image: url(../../ressources/images/background.png);
   overflow-y: scroll;
-  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  padding-right: 17px;
   box-sizing: content-box;
 }
 

@@ -1,0 +1,12 @@
+.projectsPage {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../ressources/images/background.png);
+  overflow-y: scroll;
+  padding-right: 100px;
+  box-sizing: content-box;
+}

@@ -1,12 +1,12 @@
 import React from 'react';
 import './resume.css';
 import photo from '../../ressources/images/resume/IMG_9982.png';
-import { Accordion } from 'react-bootstrap';
+import { Accordion, Card, Button } from 'react-bootstrap';
 import resume from '../../ressources/resume.json';
 
 function ResumePage() {
     return (
-        <div className= "resumePage">
+        <div className= "resumePage main">
             <div className= "resumeContainer">
                 <h1>Johan VAN DER SLOOTEN</h1>
                 <img src={photo} alt='photo_pro' width="300"/>
@@ -16,6 +16,26 @@ function ResumePage() {
                     <p><b>I made</b> this website in complement of my resume to allow you to have <b>more infos</b> about me, my experiences and my projects.</p>
                 </div>
                 <Accordion defaultActiveKey="0">
+                    <Card>
+                        <Card.Header>
+                            <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                                Studies
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey="0">
+                            <Card.Body>Hello! I'm the body</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Card.Header>
+                            <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                                Professional Experiences
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey="1">
+                            <Card.Body>Hello! I'm another body</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
                 </Accordion>
             </div>
         </div>
