@@ -5,3 +5,10 @@
 .App {
   text-align: center;
 }
+
+/* Color Theme Swatches in Hex */
+.grey { color: #afb7c5; }
+.black { color: #000000; }
+.bluegrey { color: #426A8C; }
+.lightblue { color: #68D3BA; }
+.darkblue { color: #24325C; }

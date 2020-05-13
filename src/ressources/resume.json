@@ -1,5 +1,5 @@
 {
-  "school": [
+  "studies": [
     {
       "name": "ESILV, Ecole Supérieure d'Ingénieurs de Léonard de Vinci",
       "localisation": "Paris - La Défense, France",
@@ -56,6 +56,14 @@
       "contract_type": "Summer Job",
       "mission": "Seller",
       "date_from": "August 2020"
+    }
+  ],
+  "projects": [
+    {
+      "subject": "Indice de performance",
+      "description": "applicable à toute industrie",
+      "skills": ["Python", "Data Science"],
+      "icon": "../../ressources/images/projects/python.png"
     }
   ]
 }
