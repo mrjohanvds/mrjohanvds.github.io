@@ -4,58 +4,65 @@
       "name": "ESILV, Ecole Supérieure d'Ingénieurs de Léonard de Vinci",
       "localisation": "Paris - La Défense, France",
       "type": "Engineering School",
-      "date_from": "September 2015",
+      "date_from": "Sept. 2015",
       "date_to": "June 2020",
-      "specialisation": "Computer Science, IoT, Smart Objects, BigData"
+      "specialisation": "Computer Science, IoT, Smart Objects, BigData",
+      "logo": "esilv"
     },
     {
       "name": "University of Newcastle",
       "localisation": "Newcastle, Australia",
       "type": "Studies Abroad",
       "date_from": "July 2018",
-      "date_to": "December 2018",
-      "specialisation": "Computer Science"
+      "date_to": "Dec. 2018",
+      "specialisation": "Computer Science",
+      "logo": "uon"
     },
     {
       "name": "Lycée Charles de Gaulle",
       "localisation": "Poissy, France",
       "type": "Bachelor",
-      "specialisation": "Industries, Subtainable Development"
+      "specialisation": "Industries, Subtainable Development",
+      "logo": "cdg"
     }
   ],
   "jobs": [
     {
       "enterprise": "Sopra Steria",
-      "localisaiton": "Nanterre, France",
+      "localisation": "Nanterre, France",
       "contract_type": "Intership",
       "mission": "Integrating Developer",
       "description": "",
-      "date_from": "February 2020",
-      "date_to": "July 2020"
+      "date_from": "Feb. 2020",
+      "date_to": "July 2020",
+      "logo": "soprasteria"
     },
     {
       "enterprise": "Dassault Aviation",
-      "localisaiton": "Suresnes, France",
+      "localisation": "Suresnes, France",
       "contract_type": "Intership",
       "mission": "Full Stack Developer",
       "description": "Development of secured services in order to make easier the access of BigData",
       "date_from": "April 2019",
-      "date_to": "July 2019"
+      "date_to": "July 2019",
+      "logo": "dassaultaviation"
     },
     {
       "enterprise": "Darty",
-      "localisaiton": "Orgeval, France",
+      "localisation": "Orgeval, France",
       "contract_type": "Intership",
       "mission": "Seller",
       "date_from": "June 2017",
-      "date_to": "September 2017"
+      "date_to": "Sept. 2017",
+      "logo": "darty"
     },
     {
       "enterprise": "Super U",
-      "localisaiton": "Chamonix, France",
+      "localisation": "Chamonix, France",
       "contract_type": "Summer Job",
       "mission": "Seller",
-      "date_from": "August 2020"
+      "date_from": "August 2020",
+      "logo": "u"
     }
   ],
   "projects": [

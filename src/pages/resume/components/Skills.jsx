@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import { Accordion, Card } from 'react-bootstrap';
-import resume from '../../../ressources/resume.json';
 
 function Skills() {
   return (
