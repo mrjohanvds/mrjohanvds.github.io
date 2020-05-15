@@ -41,7 +41,7 @@ function ResumePage() {
           </p>
         </div>
         <div className="resumeAccordion">
-          <Accordion defaultActiveKey="0">
+          <Accordion defaultActiveKey="3">
             <Studies studies={resume.studies} />
             <Jobs jobs={resume.jobs} />
             <Skills />

@@ -67,10 +67,60 @@
   ],
   "projects": [
     {
+      "name": "KPI",
       "subject": "Indice de performance",
       "description": "applicable à toute industrie",
       "skills": ["Python", "Data Science"],
-      "icon": "../../ressources/images/projects/python.png"
+      "icon": "python",
+      "date": "5th year of school"
+    },
+    {
+      "name": "Chromatix",
+      "subject": "Android app which gives help to color-blind people",
+      "description": "Quizz determiing the type of color-blindness (Ishihara test), color sensor and ability to swap one color by another one",
+      "skills": ["Android", "Java"],
+      "icon": "java",
+      "date": "3rd year of school"
+    },
+    {
+      "name": "Zombillenium",
+      "subject": "Amusement parc management software",
+      "description": "Add/Remove an employee, change the job, plan a maintenance to a rollercoaster",
+      "skills": ["C#", "Poo", "UML"],
+      "icon": "c_sharp",
+      "date": "3rd year of school"
+    },
+    {
+      "name": "EasyLock",
+      "subject": "Connected Locker",
+      "description": "Open and securise a locker with the student card",
+      "skills": ["Ardiuno", "Manufacturing"],
+      "icon": "arduino",
+      "date": "2rd year of school"
+    },
+    {
+      "name": "Bitmap Image Processing",
+      "subject": "Connected Locker",
+      "description": "Rotating, stretching, flog filter, shades of grey",
+      "skills": ["C#", "Poo"],
+      "icon": "c_sharp",
+      "date": "2rd year of school"
+    },
+    {
+      "name": "Rescue Vehicule",
+      "subject": "Carrying a ball in balance along a slope",
+      "description": "Slope at 15°, 30° and 4°",
+      "skills": ["Mecanics"],
+      "icon": "c_sharp",
+      "date": "1st year of school"
+    },
+    {
+      "name": "Miling Project",
+      "subject": "Machining project with a milling",
+      "description": "Cut CD's with a milling",
+      "skills": ["Manufacturing"],
+      "icon": "node_js",
+      "date": "1st year of school"
     }
   ]
 }
