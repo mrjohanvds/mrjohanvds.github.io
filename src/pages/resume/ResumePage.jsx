@@ -23,7 +23,7 @@ function ResumePage() {
       </style>
       <div className="resumeContainer">
         <h1>Johan VAN DER SLOOTEN</h1>
-        <Image className="photoPro" src={photo} width="300" roundedCircle />
+        <Image className="photoPro" src={photo} roundedCircle />
         <div className="introtext">
           <p>
             <span style={{ 'font-size': '300%' }}>M</span>y name is <b>Johan VAN DER SLOOTEN</b>.

@@ -75,6 +75,14 @@
       "date": "5th year of school"
     },
     {
+      "name": "Online Course",
+      "subject": "Creation of an online course about C#",
+      "description": "A course for beginners, for my school's students. Talking about the basis and the OOP",
+      "skills": ["C#"],
+      "icon": "c_sharp",
+      "date": "4th year of school"
+    },
+    {
       "name": "Chromatix",
       "subject": "Android app which gives help to color-blind people",
       "description": "Quizz determiing the type of color-blindness (Ishihara test), color sensor and ability to swap one color by another one",

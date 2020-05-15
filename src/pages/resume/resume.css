@@ -13,8 +13,8 @@
 }
 
 .resumeContainer {
-  margin : 100px;
-  padding : 50px;
+  margin : 7%;
+  padding : 3%;
   background-color: #12121a;
   box-shadow: 5px 5px 30px black;
 }
@@ -33,6 +33,7 @@
 .photoPro {
   margin: 40px;
   box-shadow: 0px 0px 100px #24325C;
+  width: 20%;
 }
 
 .resumeAccordion {
