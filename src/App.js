@@ -10,7 +10,7 @@ function App() {
   if (window.location.pathname !== '/') {
     return (
       <React.Fragment>
-        <div className="App">
+        <div className="App pages">
           <Routes />
         </div>
         <a href="./" className="backHome"><img src={home} alt="contact"/></a>

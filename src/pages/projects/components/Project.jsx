@@ -3,11 +3,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
+import GithubCorner from 'react-github-corner';
 import { Image } from 'react-bootstrap';
 
 function Project({ project }) {
   const {
-    name, subject, description, skills, icon, date,
+    name, subject, description, skills, icon, date, github,
   } = project;
   const iconTech = require(`../../../ressources/images/projects/${icon}.png`);
 
@@ -16,7 +17,6 @@ function Project({ project }) {
       className="vertical-timeline-element--work"
       contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
       contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-      date={date}
       iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
       icon={<Image src={iconTech} style={{ display: 'block', width: '100%' }} />}
     >
@@ -29,6 +29,7 @@ function Project({ project }) {
       <p>
         {skills}
       </p>
+      <GithubCorner href={github} />
     </VerticalTimelineElement>
   );
 }

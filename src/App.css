@@ -2,7 +2,7 @@
   font-family: 'Montserrat', sans-serif
 }
 
-.App {
+.pages {
   text-align: center;
   color: #afb7c5;
   position: absolute;
@@ -26,6 +26,24 @@
 
 .backHome img {
   width: 100%;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+.backHome img:hover {
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
 }
 
 .backHome {
@@ -37,4 +55,5 @@
   background-repeat: no-repeat;
   will-change: transform;
   max-width: 14%;
+  filter: drop-shadow(5px 5px 5px black); 
 }

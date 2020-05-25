@@ -75,6 +75,23 @@
       "date": "5th year of school"
     },
     {
+      "name": "Cloud Database",
+      "subject": "Sharding, Querying, Interfacing",
+      "description": "applicable à toute industrie",
+      "skills": ["MongoDB", "Sharding", "ReactJS"],
+      "icon": "python",
+      "date": "5th year of school",
+      "github": "https://github.com/ncpd/cloud"
+    },
+    {
+      "name": "Website for farms",
+      "subject": "A catalogue",
+      "description": "A catalogue with a few farms and a survey",
+      "skills": ["html"],
+      "icon": "node_js",
+      "date": "4th year of school"
+    },
+    {
       "name": "Online Course",
       "subject": "Creation of an online course about C#",
       "description": "A course for beginners, for my school's students. Talking about the basis and the OOP",
@@ -88,7 +105,9 @@
       "description": "Quizz determiing the type of color-blindness (Ishihara test), color sensor and ability to swap one color by another one",
       "skills": ["Android", "Java"],
       "icon": "java",
-      "date": "3rd year of school"
+      "date": "3rd year of school",
+      "video": "https://youtu.be/oSTxvM9RnE0",
+      "github":"https://github.com/ncpd/chromatix"
     },
     {
       "name": "Zombillenium",
@@ -96,7 +115,8 @@
       "description": "Add/Remove an employee, change the job, plan a maintenance to a rollercoaster",
       "skills": ["C#", "Poo", "UML"],
       "icon": "c_sharp",
-      "date": "3rd year of school"
+      "date": "3rd year of school",
+      "github": "https://github.com/mrjohanvds/Attraction-Park-Management-Program"
     },
     {
       "name": "EasyLock",
@@ -104,7 +124,8 @@
       "description": "Open and securise a locker with the student card",
       "skills": ["Ardiuno", "Manufacturing"],
       "icon": "arduino",
-      "date": "2rd year of school"
+      "date": "2rd year of school",
+      "github": "https://youtu.be/gqpCegpZcwQ"
     },
     {
       "name": "Bitmap Image Processing",

@@ -41,13 +41,13 @@ function HomePage() {
       </animated.div>
 
       <animated.div className="resume" style={{ transform: props.xy.interpolate(transResume) }} >
-        <a href="./resume"><img src={resume} alt="resume" width="300px" /></a>
+        <a href="./resume"><img src={resume} alt="resume" /></a>
       </animated.div>
       <animated.div className="projects" style={{ transform: props.xy.interpolate(transProjects) }} >
-        <a href="./projects"><img src={projects} alt="projects" width="300px" /></a>
+        <a href="./projects"><img src={projects} alt="projects" /></a>
       </animated.div>
       <animated.div className="contact" style={{ transform: props.xy.interpolate(transContact) }} >
-        <a href="./contact"><img src={contact} alt="contact" width="300px"/></a>
+        <a href="./contact"><img src={contact} alt="contact" /></a>
       </animated.div>
     </div>
   )
