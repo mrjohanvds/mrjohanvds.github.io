@@ -106,7 +106,7 @@
       "skills": ["Android", "Java"],
       "icon": "java",
       "date": "3rd year of school",
-      "video": "https://youtu.be/oSTxvM9RnE0",
+      "youtube": "https://www.youtube.com/embed/oSTxvM9RnE0",
       "github":"https://github.com/ncpd/chromatix"
     },
     {
@@ -125,7 +125,7 @@
       "skills": ["Ardiuno", "Manufacturing"],
       "icon": "arduino",
       "date": "2rd year of school",
-      "github": "https://youtu.be/gqpCegpZcwQ"
+      "youtube": "https://www.youtube.com/embed/gqpCegpZcwQ?rel=0"
     },
     {
       "name": "Bitmap Image Processing",

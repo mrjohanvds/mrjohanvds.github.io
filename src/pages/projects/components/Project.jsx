@@ -3,12 +3,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
-import GithubCorner from 'react-github-corner';
 import { Image } from 'react-bootstrap';
+import { YoutubePlayer, GitHubButton } from '.';
 
 function Project({ project }) {
   const {
-    name, subject, description, skills, icon, date, github,
+    name, subject, description, skills, icon, github, youtube,
   } = project;
   const iconTech = require(`../../../ressources/images/projects/${icon}.png`);
 
@@ -20,16 +20,17 @@ function Project({ project }) {
       iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
       icon={<Image src={iconTech} style={{ display: 'block', width: '100%' }} />}
     >
+      <GitHubButton github={github} />
       <h3 className="vertical-timeline-element-title">{name}</h3>
       <h5 className="vertical-timeline-element-subtitle">{subject}</h5>
       <hr />
       <p>
         {description}
       </p>
+      <YoutubePlayer youtube={youtube} name={name} />
       <p>
         {skills}
       </p>
-      <GithubCorner href={github} />
     </VerticalTimelineElement>
   );
 }
@@ -41,7 +42,8 @@ Project.propTypes = {
     description: PropTypes.string.isRequired,
     skills: PropTypes.arrayOf(PropTypes.string).isRequired,
     icon: PropTypes.string.isRequired,
-    date: PropTypes.string,
+    github: PropTypes.string,
+    youtube: PropTypes.string,
   }).isRequired,
 };
 

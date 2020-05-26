@@ -13,7 +13,6 @@
   height: 100%;
   background-image: url(ressources/images/background.png);
   overflow-y: scroll;
-  padding-right: 17px;
   box-sizing: content-box;
 }
 
